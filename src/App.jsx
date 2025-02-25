@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-import "./App.css";
+
 import ContextAPI from "./contextAPI/ContextAPI";
 import NameForm from "./NameForm";
 
