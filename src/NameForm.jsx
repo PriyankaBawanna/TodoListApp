@@ -142,7 +142,7 @@ const NameForm = () => {
             required
           />
           {/* Display error message if first name is invalid */}
-          {firstNameError && <div className="text-red-500">{firstNameError}</div>}
+          {firstNameError && <div className="text-red-500">First Name can only contain letters and spaces.</div>}
         </div>
 
         <div>
@@ -155,14 +155,14 @@ const NameForm = () => {
             required
           />
           {/* Display error message if last name is invalid */}
-          {lastNameError && <div className="text-red-500">{lastNameError}</div>}
+          {lastNameError && <div className="text-red-500">Last Name can only contain letters and spaces.</div>}
         </div>
 
         <button type="submit">Submit</button>
       </form>
 
       {/* Show full name only after successful validation */}
-      {fullName && <div className="mt-6">Full Name: {fullName}</div>}
+      {fullName && <div className="mt-6"> Full Name Display {fullName}</div>}
     </>
   );
 };
