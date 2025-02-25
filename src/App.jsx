@@ -7,7 +7,7 @@ import NameForm from "./NameForm";
 function App() {
   return (
     <>
-    Name Form
+ 
     <NameForm/>
     </>
   );
