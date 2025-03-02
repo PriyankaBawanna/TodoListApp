@@ -25,7 +25,7 @@ function NameForm() {
 
   return (
     <div>
-      <h2>Enter your name</h2>
+      <h2>Full Name Display</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor="firstName">First Name:</label>
         <input
